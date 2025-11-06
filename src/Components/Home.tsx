@@ -13,9 +13,9 @@ const Home = () => {
                 <p className="my-4 text-md text-center md:text-left"> 
                     Je suis un developpeur Fullstack 
                     <br/>
-                    avec 1/2 ans d'experience , utilisant React 
-                    <br /> et Vue avec tailwind.
-                    Conr=tactez-moi si vous avez besoin de mes services.
+                    avec 1 ans et 1/2 d'experience , utilisant React 
+                    <br/> Vue et tailwind en frontend <br/> synphony en backend.
+                    Contactez-moi <br/>si vous avez besoin de mes services.
                 </p>
                 <a href="" className="btn btn-accent md:w-fit">
                     <Mail  className="w-5 h-5"/> Contactez-moi

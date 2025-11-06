@@ -32,9 +32,9 @@ const projets = [
         id: 1,
         role: "Developpeur",
         company: "code-Division",
-        periode: "octobre 2025 - present",
+        periode: " de Octobre 2025 - present",
         description: [
-            "Developeur frondEnd pour une application de jeu en communote ofline"
+            "Developeur frondend pour une application de jeu en communote of-line"
         ],
         image: manette ,
     },
@@ -42,10 +42,10 @@ const projets = [
         id: 2,
         role: "Developpeur FullStack",
         company: "code-Division",
-        periode: "octobre 2025 - present",
+        periode: " de Octobre 2025 - present",
         description: [
-            "Developpeur de diverse solution informatique permettant de rendre la vie facile au utilisateur",
-            "conception de site-web et application web de qualiter pour diverse cliants"
+            "Developpeur de diverse solution informatique permettant de rendre la vie facile aux utilisateurs",
+            "conception de site-web et application web de qualite pour divers clients"
         ],
         image: box,
     },
@@ -53,10 +53,10 @@ const projets = [
         id: 3,
         role: "Developpeur FullStack",
         company: "freelans",
-        periode: "janvier 2025 - 0ctobre 2025",
+        periode: "de janvier 2025 - 0ctobre 2025",
         description: [
-            "Developpeur de solution informatique pour aider divers personneetant dans le besoin",
-            "mise sur pied des bases de donnees sophistique"
+            "Developpeur de solution informatique pour aider diverses personnes etant dans le besoin",
+            "mise sur pied des bases de donnees sophistiquees"
         ],
         image: labtop,
     }
@@ -71,7 +71,7 @@ const Experience = () =>{
                     {skills.map((skills) =>(
                         <div key ={skills.id} className="flex justify-center items-center flex-col">
                             <div className="w-24 h-24 p-2 rounded-full border-1xl border-accent">
-                                <img src={skills.image} alt={skills.name}  className="object-cover rounded-full w-full h-full"/>
+                                <img src={skills.image} alt={skills.name}  className="object-cover rounded-full w-full h-full "/>
                             </div>
                             <span className="mt-2 text-sm">{skills.name}</span>
                         </div>

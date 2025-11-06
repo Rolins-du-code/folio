@@ -12,13 +12,13 @@ const aboutSections = [
     {
         id: 2,
         title: "Developpeur Backend",
-        description: "Je metrise les bases du backend pour cree des applications robuste et intuitive.",
+        description: "Je metrise les bases du backend pour cree des applications robustes et intuitives.",
         icon: <CalendarSync className="text-accent scqle-150 "/>,
     },
     {
         id: 3,
         title: "Assez interesse par l'UI/UX",
-        description: "Crees des interface utilisAteur attrayante (Belle-couleur,) beau ,facile a comprendre et a utiliser est ma priorite ",
+        description: "Cree des interfaces utilisateur attrayantes (Belle-couleur,) beau ,facile a comprendre et a utiliser est ma priorite et ma passion ",
         icon: <Paintbrush className="text-accent scale-150" />,
     }
 ];

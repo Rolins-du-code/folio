@@ -8,7 +8,7 @@ const proj = [
     {
         id: 1,
         titre: "Gestion des taches",
-        description: "Est une application qui permet a un utilisateur a un utilisateur, de pouvoir gere c'est tache en fct de leurs importanse",
+        description: "Est une application qui permet a un utilisateur, de pouvoir gerer ses taches en fonction de leurs importances",
         technologies: ["React", "Tailwind"],
         demoLink: "#",
         repoLink: "#",
@@ -17,7 +17,7 @@ const proj = [
     {
         id: 2,
         titre: "Site-E-commerce",
-        description: "site destiner la vante en ligne de divers elenent permetant de proposer une larges game de produit et de nature differentes",
+        description: "site destine la vente en ligne de divers elenents permettant de proposer une large gamme de produits  de nature differentes",
         technologies: ["html" , "Tailwind", "synphony"],
         demonLink: "#",
         repoLink: "#",
@@ -37,7 +37,7 @@ const proj = [
 const Projet = () =>{
     return(
         <div className="mt-10" id="Projets">
-            <Titre title="Mes projet"/>
+            <Titre title="Mes projets"/>
             <div className="grid md:grid-cols-3 gap-4">
                 {proj.map((projs) =>(
                     <div key={projs.id} className="bg-base-300 p-5 h-fit rounded-fil shadow-lg">
